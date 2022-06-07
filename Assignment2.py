@@ -13,3 +13,6 @@ student_data = {"Student1":{"Name":"Vineeth", "StudentID":"19881A0550","SSC":"10
                 }
 dt = pd.DataFrame(student_data)
 print(dt)
+
+for student in student_data.items() :
+    print(student,end="\n")

@@ -1,6 +1,5 @@
 
 #DICE GAME
-
 import random
 while True:
     user_input = int(input("Enter a number between 1 & 6 : "))
@@ -9,7 +8,9 @@ while True:
     print("Computer's choice = ",ci)
     if user_input > ci :
         print("You Won !! Game Over")
+        break
     elif user_input < ci :
         print("Computer Won!! Game Over")
+        break
     else:
         continue
